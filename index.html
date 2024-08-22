@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-   
-  <!-- tailwind css CDN  -->
-   <script src="https://cdn.tailwindcss.com"></script>
 
-   <!-- daisyUI CDN  -->
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/c66071563f.js" crossorigin="anonymous"></script>
+
+  <!-- tailwind css CDN  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- daisyUI CDN  -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 
   <!-- tailwind css  -->
@@ -21,22 +25,93 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            'bike-primary': '#E76F51',
-            'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+            'btn-green': '#ABEF5F',
+            'btn-green-light': 'rgba(171, 239, 95, 0.5)',
           }
         }
       }
     }
   </script>
 
-   <style>
-      .font-manrope {
-        font-family: "Manrope", sans-serif;
+  <style>
+    .font-manrope {
+      font-family: "Manrope", sans-serif;
     }
   </style>
   <title>assignment-03</title>
 </head>
+
 <body class="font-manrope">
-  
+  <header class="container mx-auto">
+    <!-- navbar  -->
+    <!-- <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl font-bold ">
+            <i class="fa-solid fa-arrow-right bg-btn-green rounded-full -rotate-45 h-7 w-7 p-0.5"></i>Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal">
+            <li class="hover:font-bold"><a>Home</a></li>
+              <li class="hover:font-bold"><a>Services</a></li>
+              <li class="hover:font-bold"><a>Portfolio</a></li>
+              <li class="hover:font-bold"><a>Portfolio</a></li>
+              <li class="hover:font-bold"><a>Blogs</a></li>
+              <li class="hover:font-bold"><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="md:navbar-end md:flex md:space-x-3 hidden">
+          <i class="fa-solid fa-magnifying-glass h-7 w-7 rounded-full border-2 p-1"></i>
+          <i class="fa-solid fa-cart-shopping h-7 w-7 rounded-full border-2 p-0.5 pt-1 "></i>
+          <a class="btn text-xl rounded-3xl bg-btn-green font-extrabold">Book Consult <i class="fa-solid fa-arrow-right bg-black text-white rounded-full -rotate-45 h-7 w-7 p-1"></i></a>
+        </div>
+      </div>
+    </nav> -->
+    <!-- hero section -->
+    <div class="mb-24 mt-10">
+      <!-- image  -->
+      <div class="md:ml-96 ">
+        <img src="./assets/banner.png" alt="">
+      </div>
+      <!-- text  -->
+      <div class="text-center">
+        <h1 class="text-6xl font-extrabold">A barn house of this design has a <br> striking appearance</h1>
+        <p class="pt-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+          weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+        <button class="text-lg px-4 py-3 rounded-3xl font-bold bg-btn-green-light mt-5 w-full md:w-auto">View Details <i
+            class="fa-solid fa-arrow-right rounded-full -rotate-45 bg-btn-green w-7 h-7 p-1"></i></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    
+  </main>
+  <footer></footer>
 </body>
+
 </html>
